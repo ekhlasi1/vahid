@@ -1,5 +1,5 @@
 {
-  "name": "nova-proxy",
+  "name": "vahidekhlasi",
   "version": "4.1.10",
   "private": true,
   "scripts": {
@@ -9,13 +9,13 @@
   "cloudflare": {
     "bindings": {
       "KV": {
-        "description": "Nova's compatibility and migration store. Cloudflare creates and binds it automatically."
+        "description": "Compatibility and migration store. Cloudflare creates and binds it automatically."
       },
       "DB": {
-        "description": "Nova's primary D1 database for settings, users, usage, logs, and authentication."
+        "description": "Primary D1 database for settings, users, usage, logs, and authentication."
       },
       "PAGES_URL": {
-        "description": "Static Nova Panel origin. Keep the default unless you operate your own reviewed panel build."
+        "description": "Static panel origin. Keep the default unless you operate your own reviewed panel build."
       }
     }
   },
