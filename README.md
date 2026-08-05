@@ -1,2 +1,0 @@
-# vahid
-Bndmax
