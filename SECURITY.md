@@ -12,7 +12,7 @@ what you run, and how to report a problem.
 - @vahidekhlasi is **self-hosted**. When you use "Deploy to Cloudflare" or run
   `wrangler deploy`, Cloudflare deploys exactly the `worker.js` in your fork at
   that commit. You are never asked to trust a binary you cannot read.
-- Every push runs the [`Verify worker.js`](.github/workflows/verify.yml) CI,
+- Every push runs the [`Verify worker.js`](.github/workflows/nova-update-check.yml) CI,
   which syntax-checks the file and **publishes its SHA-256** in the run summary.
   To confirm a checkout is untampered:
 
@@ -20,8 +20,7 @@ what you run, and how to report a problem.
   sha256sum worker.js   # compare with the hash in the matching CI run
   ```
 
-- The organization also keeps a central, credential-free verifier at
-  [`ekhlasi1/vahid`](https://github.com/ekhlasi1/vahid), which cross-checks the hashes of artifacts from source.
+- The project keeps a credential-free verifier at this repository, which cross-checks the hashes of artifacts from source.
 
 ## Panel version pinning
 

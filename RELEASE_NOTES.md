@@ -1,13 +1,11 @@
 # @vahidekhlasi 4.5.5
 
-این فایل تغییرات نسخه را نشان می‌دهد و تمام ارجاعات به پروژهٔ مرجع به ریپوی شما منتقل شده است.
+This file contains release notes adjusted to reference this repository and project.
 
-## به‌روزرسانی
+## Release highlights
 
-برای به‌روزرسانی از دکمهٔ Deploy to Cloudflare یا Pull Request روزانه استفاده کنید. ریپوزیتوری و لینک‌های داخلی به https://github.com/ekhlasi1/vahid ارجاع می‌دهند.
+- Fixes and hardening for the worker artifact and usage statistics.
 
----
+## Upgrade
 
-# تاریخچه تغییرات
-
-(متنِ نسخه‌های قبلی با ارجاعاتِ به‌روز شده به ریپو و عبارات فارسی "رایگان" به "vip" در متن فارسی اصلاح شده.)
+Deploy the update with the Deploy to Cloudflare button, or merge the daily update PR after reviewing its diff and Cloudflare preview. Full deployment and update instructions are in DEPLOY.md.
